@@ -1,0 +1,12 @@
+node_modules
+build
+coverage
+npm-debug.log
+
+# Docker-related stuff
+Dockerfile
+docker-compose.dev.yml
+docker-compose.prod.yml
+
+# Repository stuff
+README.md

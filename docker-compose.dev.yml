@@ -1,0 +1,24 @@
+services:
+    dockerized-react-app:
+        container_name: dockerized-react-app
+        image: test/dockerized-react-app
+        build:
+            context: .
+            dockerfile: Dockerfile.dev
+        # env_file:
+        #     - .env
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./src:/home/node/app/src:ro
+        environment:
+            # This is needed on windows to use hot reload
+            WATCHPACK_POLLING: true
+            # This is needed to have auto refresh on browser when changes are made to the codebase
+            WDS_SOCKET_PORT: 0
+        command: npm run dev
+        stdin_open: true
+volumes:
+    node_modules:
+networks:
+    dev:

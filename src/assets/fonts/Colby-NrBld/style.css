@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Colby-NrBld';
+    src: local('Colby Narrow Bold'), local('Colby-Narrow-Bold'),
+        url('Colby-NrBld.woff2') format('woff2'),
+        url('Colby-NrBld.woff') format('woff'),
+        url('Colby-NrBld.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

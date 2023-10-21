@@ -1,0 +1,13 @@
+.navTitle {
+    text-decoration: none;
+    color: #c4ae78;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Cera Condensed Pro";
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.navTitle:hover {
+    opacity: 0.8;
+}
