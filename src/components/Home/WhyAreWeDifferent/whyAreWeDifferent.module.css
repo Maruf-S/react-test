@@ -1,0 +1,5 @@
+.container {
+    background: url("../../../assets/images/home_background_3.jpg"), lightgray -60px -291.792px / 104.167% 225% no-repeat;
+    background-size: cover;
+    height: 1000px;
+}

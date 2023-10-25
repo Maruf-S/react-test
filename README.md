@@ -8,8 +8,8 @@ Instructions for Mac OSX and Windows
 
 1. Get the code. Clone this git repository and check out the latest release:
     ```bash
-    git clone git@github.com:Maruf-S/react-test.git
-    cd react-test
+    git clone git@github.com:Maruf-S/cedar-valley.git
+    cd cedar-valley
     ```
 2. Ensure, hyperkit/qemu, colima, docker, and docker-compose are installed:
 
@@ -38,8 +38,8 @@ This will run the app at localhost:3000
 
 1. Get the code. Clone this git repository and check out the latest release:
     ```bash
-    git clone git@github.com:Maruf-S/react-test.git
-    cd react-test
+    git clone git@github.com:Maruf-S/cedar-valley.git
+    cd cedar-valley
     ```
 2. Install docker desktop:
 
